@@ -1,0 +1,539 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1656404342293394, "dur": 3283638, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656404342294676, "dur": 33335, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656404342328237, "dur": 60850, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656404342389112, "dur": 866382, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656404343255495, "dur": 2311562, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656404345567076, "dur": 9955, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656404350337025, "dur": 1743226, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656404350337244, "dur": 6097, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656404350343343, "dur": 32054, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656404350375398, "dur": 551581, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656404350926981, "dur": 1138958, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656404352065940, "dur": 14311, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656404352080717, "dur": 20, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1656404350777072, "dur": 142734, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656404350778048, "dur": 41624, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656404350904761, "dur": 4199, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656404350908964, "dur": 10830, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656404350909654, "dur": 9548, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656404350924278, "dur": 1235, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656404350923565, "dur": 1973, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656404352080799, "dur": 148, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1656404350965440, "dur":1172, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656404350966620, "dur":38, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1656404350966666, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1656404350966680, "dur":296, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1656404350967010, "dur":526, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656404350967536, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656404352052866, "dur":157, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656404352053023, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656404352053040, "dur":26, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656404352053066, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656404352053074, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656404352053076, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656404352053080, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656404352053081, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656404352053086, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656404352053087, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656404352053093, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656404352053094, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656404352053098, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656404352053099, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656404352053104, "dur":34, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656404352053138, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656404352053143, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656404352053152, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656404352053157, "dur":1734, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1656404350967131, "dur":451, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656404350967583, "dur":4017, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656404350971610, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1656404350971611, "dur":345, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656404350971963, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1656404350971967, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656404350985273, "dur":5420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1656404350990695, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1656404350990838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656404350990846, "dur":252386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1656404351243280, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656404351243325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656404351243331, "dur":68828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656404351312201, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656404351312241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656404351312247, "dur":67983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656404351380281, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656404351380329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656404351380336, "dur":19925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656404351400299, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656404351400341, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656404351400345, "dur":18874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656404351419261, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656404351419302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656404351419308, "dur":19380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656404351438730, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656404351438789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656404351438795, "dur":20862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656404351459700, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656404351459743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656404351459750, "dur":38846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656404351498638, "dur":38827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656404351537471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656404351537478, "dur":898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656404351538416, "dur":3053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656404351541474, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656404351541483, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656404351542668, "dur":40003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656404351582675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656404351582681, "dur":2952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656404351585686, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656404351585731, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656404351585737, "dur":212349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656404351798126, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656404351798164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656404351798170, "dur":41828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656404351840041, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656404351840082, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656404351840088, "dur":212724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656404352052846, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1656404352052848, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404350967164, "dur":458, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404350967622, "dur":3985, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404350971610, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1656404350971766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404350977132, "dur":10081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1656404350987265, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1656404350987380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404350987438, "dur":9667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1656404350997166, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656404350997271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404350997276, "dur":141233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656404351138557, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656404351138602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404351138609, "dur":23254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656404351161909, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656404351161954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404351161961, "dur":20920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656404351182924, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656404351182969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404351182975, "dur":21012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656404351204029, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656404351204072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404351204079, "dur":42712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656404351246833, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656404351246879, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404351246885, "dur":113175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656404351360106, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656404351360150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404351360156, "dur":50455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656404351410655, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656404351410697, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404351410704, "dur":42464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656404351453213, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656404351453255, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404351453259, "dur":28139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656404351481440, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656404351481482, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404351481488, "dur":40067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656404351521600, "dur":212401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656404351734006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404351734013, "dur":1396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656404351735452, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656404351735498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404351735505, "dur":33652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656404351769198, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656404351769241, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404351769249, "dur":100015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656404351869304, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1656404351869416, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404351869936, "dur":697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1656404351870674, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1656404351870717, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404351870760, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1656404351871766, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1656404351871804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404351871809, "dur":703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1656404351872551, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1656404351872591, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404351872595, "dur":766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1656404351873398, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1656404351873438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404351873442, "dur":1536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1656404351875020, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1656404351875059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404351875065, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1656404351876153, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1656404351876264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404351876269, "dur":722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1656404351877031, "dur":609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1656404351877644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404351877650, "dur":1104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1656404351878793, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1656404351878832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404351878838, "dur":1029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1656404351879907, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1656404351879951, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404351879956, "dur":799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1656404351880794, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1656404351880835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404351880839, "dur":912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1656404351881790, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1656404351881832, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404351881837, "dur":738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1656404351882610, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1656404351882652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656404351882657, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1656404351883729, "dur":169136, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656404350967185, "dur":443, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656404350967628, "dur":3982, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656404350971610, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1656404350971771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656404350977491, "dur":8337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1656404350985882, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1656404350986000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656404350986333, "dur":2698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1656404350989075, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1656404350989165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656404350989170, "dur":7195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1656404350996411, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656404350996508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656404350996586, "dur":47564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656404351044195, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656404351044226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656404351044369, "dur":39702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656404351084115, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656404351084162, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656404351084216, "dur":19144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656404351103403, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656404351103444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656404351103450, "dur":63457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656404351166960, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656404351167010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656404351167017, "dur":45348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656404351212411, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656404351212456, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656404351212462, "dur":187188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656404351399696, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656404351399738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656404351399747, "dur":23007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656404351422797, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656404351422837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656404351422844, "dur":16863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656404351439747, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656404351439790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656404351439796, "dur":16996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656404351456839, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656404351456886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656404351456892, "dur":19393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656404351476331, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656404351476375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656404351476380, "dur":116325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656404351592747, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656404351592793, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656404351592797, "dur":52982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656404351645821, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656404351645859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656404351645865, "dur":69590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656404351715499, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656404351715540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656404351715546, "dur":201883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656404351917470, "dur":135397, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656404350967201, "dur":435, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656404350967636, "dur":3970, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656404350971610, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1656404350971760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656404350974114, "dur":7380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1656404350981547, "dur":604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1656404350982154, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656404350982189, "dur":2360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1656404350984596, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1656404350984698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656404350984704, "dur":243663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1656404351228415, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656404351228463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656404351228469, "dur":18332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656404351246843, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656404351246890, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656404351246895, "dur":66310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656404351313248, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656404351313294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656404351313300, "dur":17027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656404351330370, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656404351330412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656404351330418, "dur":18154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656404351348621, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656404351348662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656404351348668, "dur":44676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656404351393391, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656404351393452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656404351393459, "dur":43927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656404351437431, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656404351437470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656404351437476, "dur":28004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656404351465524, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656404351465584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656404351465590, "dur":37728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656404351503366, "dur":89364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656404351592733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656404351592739, "dur":3079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656404351595862, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656404351595904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656404351595911, "dur":105971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656404351701928, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656404351701975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656404351701981, "dur":154745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656404351856765, "dur":127596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656404351984366, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656404351984373, "dur":1072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656404351985473, "dur":67401, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656404350967226, "dur":414, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656404350967640, "dur":3994, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656404350971635, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1656404350971761, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656404350973489, "dur":252475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1656404351226018, "dur":123675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656404351349696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656404351349702, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656404351350854, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656404351350897, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656404351350902, "dur":65367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656404351416310, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656404351416351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656404351416357, "dur":31069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656404351447470, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656404351447513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656404351447520, "dur":103034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656404351550598, "dur":655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656404351551256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656404351551263, "dur":919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656404351552221, "dur":26496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656404351578722, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656404351578733, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656404351579705, "dur":538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656404351580246, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656404351580252, "dur":765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656404351581057, "dur":557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656404351581618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656404351581624, "dur":818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656404351582481, "dur":524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656404351583026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656404351583032, "dur":1687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656404351584759, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656404351584809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656404351584815, "dur":78033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656404351662889, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656404351662932, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656404351662938, "dur":26614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656404351689594, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656404351689636, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656404351689642, "dur":29542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656404351719228, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656404351719279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656404351719285, "dur":161575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656404351880902, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1656404351880947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656404351880951, "dur":903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1656404351881895, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1656404351881942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656404351881946, "dur":1037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1656404351883024, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1656404351883136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656404351883140, "dur":742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1656404351883918, "dur":168946, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656404350967242, "dur":404, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656404350967646, "dur":3959, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656404350971610, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1656404350971763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656404350973514, "dur":21905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1656404350995474, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1656404350995586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656404350995593, "dur":36946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1656404351032588, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1656404351032641, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656404351032649, "dur":56659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1656404351089349, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656404351089400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656404351089405, "dur":34363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656404351123815, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656404351123865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656404351123871, "dur":39115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656404351163022, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656404351163053, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656404351163056, "dur":17201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656404351180305, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656404351180354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656404351180361, "dur":56550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656404351236959, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656404351237041, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656404351237057, "dur":112584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656404351349687, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656404351349733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656404351349738, "dur":17217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656404351367000, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656404351367046, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656404351367053, "dur":44744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656404351411836, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656404351411877, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656404351411882, "dur":105544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656404351517474, "dur":63216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656404351580693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656404351580698, "dur":1472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656404351582211, "dur":20354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656404351602568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656404351602573, "dur":791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656404351603403, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656404351603445, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656404351603450, "dur":132593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656404351736081, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656404351736118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656404351736123, "dur":109129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656404351845288, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656404351845324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656404351845330, "dur":171240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656404352016598, "dur":36271, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656404350967266, "dur":388, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656404350967654, "dur":3981, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656404350971635, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1656404350971768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656404350974144, "dur":7213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1656404350981414, "dur":433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1656404350981850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656404350982004, "dur":6961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1656404350989015, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1656404350989131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656404350989139, "dur":6827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1656404350996014, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404350996120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656404350996544, "dur":43797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351040387, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1656404351040509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656404351040756, "dur":44945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1656404351085748, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351085794, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656404351085799, "dur":20860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351106700, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351106747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656404351106753, "dur":21962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351128778, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351128838, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656404351128845, "dur":79146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351208033, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351208077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656404351208083, "dur":74726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351282849, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351282892, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656404351282898, "dur":111690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351394632, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351394680, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656404351394684, "dur":18497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351413225, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351413268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656404351413274, "dur":18655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351431970, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351432014, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656404351432020, "dur":21132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351453196, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351453238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656404351453245, "dur":18001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351471287, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351471330, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656404351471335, "dur":17581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351488955, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351488996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656404351489002, "dur":21628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351510675, "dur":67098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351577778, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656404351577790, "dur":1417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351579248, "dur":638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351579889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656404351579896, "dur":859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351580798, "dur":20621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351601424, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656404351601431, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351602354, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351602392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656404351602397, "dur":150509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351752944, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351752990, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656404351752996, "dur":101285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351854324, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351854364, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656404351854370, "dur":80068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656404351934482, "dur":118391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656404350967286, "dur":372, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656404350967658, "dur":3950, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656404350971610, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1656404350971762, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656404350973466, "dur":10632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1656404350984244, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1656404350984411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656404350984418, "dur":9155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1656404350993632, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1656404350993778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656404350993785, "dur":39103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1656404351032935, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame.exe" }}
+,{ "pid":12345, "tid":8, "ts":1656404351032982, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656404351032985, "dur":56020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame.exe" }}
+,{ "pid":12345, "tid":8, "ts":1656404351089047, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351089096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656404351089106, "dur":34838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351123985, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351124028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656404351124033, "dur":38874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351162951, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351162995, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656404351163001, "dur":17302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351180522, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351180564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656404351180568, "dur":72503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351253113, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351253163, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656404351253169, "dur":18313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351271530, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351271573, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656404351271579, "dur":46150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351317776, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351317820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656404351317826, "dur":20106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351337978, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351338018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656404351338024, "dur":56421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351394490, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351394538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656404351394545, "dur":32325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351426917, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351426961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656404351426968, "dur":49123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351476139, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351476182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656404351476189, "dur":35404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351511635, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351511678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656404351511685, "dur":50715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351562441, "dur":601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351563045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656404351563052, "dur":843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351563936, "dur":49766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351613707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656404351613716, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351614863, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351614901, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656404351614906, "dur":64535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351679482, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351679523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656404351679529, "dur":87496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351767065, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351767108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656404351767114, "dur":92459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351859612, "dur":26903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351886519, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656404351886526, "dur":817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyGaem/MonoBleedingEdge/CarRideGame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656404351887383, "dur":165481, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656404352056269, "dur":2239, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1656404352080996, "dur": 513, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656404352080707, "dur": 816, "ph": "X", "name": "Write chrome-trace events", "args": {} },
