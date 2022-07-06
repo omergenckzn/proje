@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -502,7 +502,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 323443871}
   m_LocalRotation: {x: 0.22110422, y: -0, z: -0, w: 0.9752502}
-  m_LocalPosition: {x: 0, y: 5.897544, z: -5.008192}
+  m_LocalPosition: {x: 0, y: 5.897546, z: -5.008193}
   m_LocalScale: {x: 0.55510014, y: 1.3534923, z: 1.0076035}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -539,7 +539,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.1213872, y: 1}
+    m_SensorSize: {x: 2.228745, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1566,7 +1566,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.22110422, y: 0, z: 0, w: 0.9752502}
-  m_LocalPosition: {x: 0, y: 4.6786385, z: -16.672258}
+  m_LocalPosition: {x: 0, y: 4.6786394, z: -16.67226}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2667,6 +2667,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4614386624435357218, guid: 4936135b8afd5394d8e3fd2f4ecc628a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8e6a24a616abe684b96376635c022222, type: 2}
     - target: {fileID: 5947520878738645932, guid: 4936135b8afd5394d8e3fd2f4ecc628a, type: 3}
       propertyPath: m_Name
       value: CubeObstacle (6)
